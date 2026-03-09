@@ -6,7 +6,7 @@ with open("/usr/share/wordlists/rockyou.txt", "r", encoding="latin-1") as f:
 with open("passwords_lt.txt", "r", encoding="latin-1") as f:
     lt_passwords = set(line.strip() for line in f)
 
-#Merge two passwords lists(Rockyou.txt and one created by me)
+
 common_passwords = common_passwords | lt_passwords
 
 
@@ -15,7 +15,7 @@ while True:
     length = len(password)
 
 
-#Checks the password lists
+
     if password.lower() in common_passwords:
         print("This password is too common! Choose another.")
         continue
