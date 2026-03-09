@@ -2,10 +2,6 @@
 Cybersecurity project that evaluates password strength using character analysis, scoring system, and rockyou password list detection.
 
 
-# Password Strength Checker
-
-A Python-based password strength evaluation tool that analyzes password complexity, checks against common password lists, and assigns a strength rating.
-
 This project was created as part of a cybersecurity learning project to demonstrate basic password security analysis techniques.
 
 ## Features
